@@ -20,7 +20,7 @@ export class TaskController {
       if (!task) {
         return res.status(404).json({ message: "Tarea no encontrada" });
       }
-      return res.status(201).json({ task });
+      return res.status(201).json(task);
     } catch (error) {
       return res.status(500).json({ message: "Error del servidor" });
     }
@@ -56,7 +56,7 @@ export class TaskController {
   }
 
   static async deleteTask(req: Request, res: Response): Promise<any> {
-    const { id } = req.body;
+    const { id } = req.params;
 
     try {
       const task = await TaskService.deleteTask(id);
