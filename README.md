@@ -77,7 +77,7 @@ POST /tasks/create
 ### 📌 Actualizar una tarea
 
 ```http
-PUT /tasks/update
+PUT /tasks/update/:id
 ```
 
 📥 **Cuerpo:**
