@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "CONNECTION_NAME",
+      "Group": "GROUP_TEST",
+      "Host": "pg-3760558e-ourcoring-2636.b.aivencloud.com",
+      "Port": 15828,
+      "MaintenanceDB": "defaultdb",
+      "Username": "avnadmin",
+      "SSLMode": "require"
+    }
+  }
+}
