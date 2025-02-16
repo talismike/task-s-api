@@ -1,6 +1,6 @@
-# 📌 API de Tareas sencilla con NestJS, Prisma y SQLite
+# 📌 API de Tareas sencilla con ExpressJS, Prisma y PostgreSQL
 
-Este proyecto es una API REST de gestión de tareas hecha con **NestJS**, **Prisma** y **SQLite**. Permite realizar operaciones CRUD básicas sobre tareas.
+Este proyecto es una API REST de gestión de tareas hecha con **ExpressJS**, **Prisma** y **PostgreSQL**. Permite realizar operaciones CRUD básicas sobre tareas.
 
 ## 🔥 Endpoints
 
@@ -41,7 +41,7 @@ GET /tasks/:id
 
 ```json
 {
-  "id": 943494b8-6d62-4f18-9017-87a5085f4c6e,
+  "id": 943494b8-6d62-4f18-9017-87a5085f4c6o,
   "title": "Tarea de prueba",
   "description": "Descripción de la tarea",
   "completed": false
@@ -67,7 +67,7 @@ POST /tasks/create
 
 ```json
 {
-  "id": 479ebb92-59bd-4997-9e86-dedcb0833074,
+  "id": 479ebb92-59bd-4997-9e86-dedcb083307r,
   "title": "Nueva tarea",
   "description": "Descripción de la tarea",
   "completed": false
@@ -94,7 +94,7 @@ PUT /tasks/update/:id
 
 ```json
 {
-  "id": 479ebb92-59bd-4997-9e86-dedcb0833074,
+  "id": 479ebb92-59bd-4997-9e86-dedcb083307m,
   "title": "Tarea actualizada",
   "description": "Nueva descripción",
   "completed": true
