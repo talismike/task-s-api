@@ -44,7 +44,8 @@ export class TaskController {
   }
 
   static async updateTask(req: Request, res: Response): Promise<any> {
-    const { id, title, description, completed } = req.body;
+    const { id } = req.params;
+    const { title, description, completed } = req.body;
     const data = { title, description, completed };
 
     try {
