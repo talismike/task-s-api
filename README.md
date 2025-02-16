@@ -16,13 +16,13 @@ GET /tasks
 {
   "tasks": [
     {
-      "id": "479ebb92-59bd-4997-9e86-dedcb0833074",
+      "id": "1",
       "title": "Mi primera task",
       "description": "Esta task fue la primera",
       "completed": false
     },
     {
-      "id": "943494b8-6d62-4f18-9017-87a5085f4c6e",
+      "id": "2",
       "title": "Mi segunda task",
       "description": "Esta task fue la segunda",
       "completed": true
@@ -40,12 +40,12 @@ GET /tasks/:id
 📤 **Respuesta:**
 
 ```json
-{
-  "id": 943494b8-6d62-4f18-9017-87a5085f4c6o,
-  "title": "Tarea de prueba",
-  "description": "Descripción de la tarea",
-  "completed": false
-}
+   {
+      "id": "2",
+      "title": "Mi segunda task",
+      "description": "Esta task fue la segunda",
+      "completed": true
+    }
 ```
 
 ### 📌 Crear una nueva tarea
@@ -67,7 +67,7 @@ POST /tasks/create
 
 ```json
 {
-  "id": 479ebb92-59bd-4997-9e86-dedcb083307r,
+  "id": 3,
   "title": "Nueva tarea",
   "description": "Descripción de la tarea",
   "completed": false
@@ -77,7 +77,7 @@ POST /tasks/create
 ### 📌 Actualizar una tarea
 
 ```http
-PUT /tasks/update/:id
+PUT /tasks/update
 ```
 
 📥 **Cuerpo:**
@@ -94,7 +94,7 @@ PUT /tasks/update/:id
 
 ```json
 {
-  "id": 479ebb92-59bd-4997-9e86-dedcb083307m,
+  "id": 3,
   "title": "Tarea actualizada",
   "description": "Nueva descripción",
   "completed": true
