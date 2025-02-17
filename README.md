@@ -119,4 +119,4 @@ DELETE /tasks/delete/:id
 
 - **ExpressJS** - Framework backend en Node.js
 - **Prisma** - ORM para manejo de base de datos
-- **PostgreSQL** - Base de datos ligera
+- **PostgreSQL** - Base de datos potente
